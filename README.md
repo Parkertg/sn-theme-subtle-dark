@@ -7,5 +7,5 @@ A low saturation dark theme for Standard Notes
 - Press Install
 
 ```
-https://listed.to/p/ to be determined
+https://listed.to/p/bntrwCrfHs
 ```
