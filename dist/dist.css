@@ -76,9 +76,6 @@
 :root .sk-menu-panel {
   color: var(--foreground-1) !important;
 }
-:root #notes-scrollable {
-  background-color: var(--background-2) !important;
-}
 
 :root .cm-s-default .cm-variable-3,
 :root .cm-s-default .cm-type {
