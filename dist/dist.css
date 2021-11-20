@@ -1,78 +1,73 @@
 :root {
-    /* Primary Colors */
     --background-1: #1c1a18;
-
     --background-2: #3a3a38;
-    --foreground-1: #e6e6e6;
-    --foreground-2: #a6a6a6;
-    --foreground-3: #d7d3ca;
-    --highlight-color: #584d3b;
+    --foreground-1: #dde7e7 ;
+    --foreground-2: #a9adad;
+    --highlight-color: #998766;
     --neutral-color: #9f9f9f;
-	--success-color: #bfaa6d;
-	--warning-color: #e1712e;
-	--danger-color: #c56565;
-    --border-color: #545148;
+    --success-color: #89ab37;
+    --warning-color: #e1712e;
+    --danger-color: #b33a3a;
+    --border-color: #605a50;
     
-    --sn-stylekit-info-color: #5993c7;
+    --sn-stylekit-info-color: #87775f;
     --sn-stylekit-info-contrast-color: white;
+	--sn-stylekit-info-color-darkened:  #503d1e;
+	--sn-stylekit-info-backdrop-color:  #ff9d003b;
 	
     --sn-stylekit-neutral-color: var(--neutral-color);
     --sn-stylekit-neutral-contrast-color: var(--background-2);
     
-	--sn-stylekit-success-color: var(--success-color);
+    --sn-stylekit-success-color: var(--success-color);
     --sn-stylekit-success-contrast-color: var(--background-2);
     
-	--sn-stylekit-warning-color: var(--warning-color);
+    --sn-stylekit-warning-color: var(--warning-color);
     --sn-stylekit-warning-contrast-color: var(--background-2);
     
-	--sn-stylekit-danger-color: var(--danger-color);
+    --sn-stylekit-danger-color: var(--danger-color);
     --sn-stylekit-danger-contrast-color: var(--background-2);
     
-	--sn-stylekit-shadow-color: var(--background-2);
+    --sn-stylekit-shadow-color: var(--background-2);
     --sn-stylekit-background-color: var(--background-1);
     --sn-stylekit-foreground-color: var(--foreground-1);
     --sn-stylekit-border-color: var(--border-color);
     
-	--sn-stylekit-paragraph-text-color: var(--foreground-1);
+    --sn-stylekit-paragraph-text-color: var(--foreground-1);
     
-	--sn-stylekit-contrast-background-color: var(--background-2);
+    --sn-stylekit-contrast-background-color: var(--background-2);
     --sn-stylekit-contrast-foreground-color: var(--foreground-1);
     --sn-stylekit-contrast-border-color: var(--border-color);
     
-	--sn-stylekit-secondary-background-color: var(--background-2);
+    --sn-stylekit-secondary-background-color: var(--background-2);
     --sn-stylekit-secondary-foreground-color: var(--foreground-2);
     --sn-stylekit-secondary-border-color: var(--border-color);
     
-	--sn-stylekit-secondary-contrast-background-color: var(--background-1);
+    --sn-stylekit-secondary-contrast-background-color: var(--background-1);
     --sn-stylekit-secondary-contrast-foreground-color: var(--foreground-1);
     --sn-stylekit-secondary-contrast-border-color: var(--border-color);
     
-	--sn-stylekit-editor-background-color: var(--background-1);
-    --sn-stylekit-editor-foreground-color: var(--foreground-1);
+    --sn-stylekit-editor-background-color: var(--background-1);
+    --sn-stylekit-editor-foreground-color: var(--foreground-2);
     
-	--sn-stylekit-input-placeholder-color: var(--foreground-2);
+    --sn-stylekit-input-placeholder-color: var(--foreground-2);
     --sn-stylekit-input-border-color: var(--border-color);
     
-    /* Scroll Bar */
-	--sn-stylekit-scrollbar-track-border-color: var(--border-color);
+    --sn-stylekit-scrollbar-track-border-color: var(--border-color);
     --sn-stylekit-scrollbar-thumb-color: var(--border-color);
     
-	--sn-desktop-titlebar-bg-color: var(--background-1);
+    --sn-desktop-titlebar-bg-color: var(--background-1);
     --sn-desktop-titlebar-border-color: var(--border-color);
     --sn-desktop-titlebar-ui-color: var(--foreground-1);
     --sn-desktop-titlebar-ui-hover-color: var(--highlight-color);
 
-	--sn-stylekit-menu-border: 1px solid #606464;
-    
+    --sn-stylekit-menu-border: 1px solid #606464;
 }
 
 
 :root .sk-app-bar {
   color: var(--foreground-2) !important;
 }
-:root .title {
-  color: var(--foreground-3) !important;
-}
+
 :root .sk-menu-panel {
   color: var(--foreground-1) !important;
 }
@@ -116,17 +111,13 @@
 :root div.tag-info.level-5 > div.sk-circle.small.neutral {
 	opacity: 0.6;
 }
-:root .sn-component .sk-circle {
-	border: none;
-}
+
 :root .tag-tree .self.selected:before {
 	background: none;
 	background-color: var(--sn-stylekit-secondary-contrast-background-color);
 	opacity: 1;
 }
-:root #tags-column .tag.selected {
-	background-color: #124420;
-}
+
 :root .tag-tree .self .tag-info .action-menu {
 	margin-left: auto;
 	margin-right: 0;
