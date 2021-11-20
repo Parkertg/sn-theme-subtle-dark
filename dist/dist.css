@@ -24,8 +24,8 @@
     --sn-stylekit-danger-color: #bf4c47;
     --sn-stylekit-danger-contrast-color: white;
     
-    --sn-stylekit-foreground-color: black;
-    --sn-stylekit-background-color: white;
+    --sn-stylekit-foreground-color: var(--foreground-1);
+    --sn-stylekit-background-color: var(--background-1);
     --sn-stylekit-shadow-color: #c8c8c8;
     
     --sn-stylekit-general-border-radius: 2px;
@@ -33,10 +33,10 @@
     
     --sn-stylekit-contrast-background-color: #f6f6f6;
     --sn-stylekit-contrast-foreground-color: #2e2e2e;
-    --sn-stylekit-contrast-border-color: #e3e3e3;
+    --sn-stylekit-contrast-border-color: var(--border-color);
 
-    --sn-stylekit-secondary-background-color: #f6f6f6;
-    --sn-stylekit-secondary-foreground-color: #2e2e2e;
+    --sn-stylekit-secondary-background-color: var(--background-2);
+    --sn-stylekit-secondary-foreground-color: var(--foreground-2);
     --sn-stylekit-secondary-border-color: #e3e3e3;
 
     --sn-stylekit-secondary-contrast-background-color: #e3e3e3;
