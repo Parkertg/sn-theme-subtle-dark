@@ -1,6 +1,7 @@
 :root {
     /* Primary Colors */
-    --background-1: #241d16;
+    --background-1: #1c1a18;
+
     --background-2: #3a3a38;
     --foreground-1: #e6e6e6;
     --foreground-2: #a6a6a6;
@@ -10,7 +11,7 @@
 	--success-color: #bfaa6d;
 	--warning-color: #e1712e;
 	--danger-color: #c56565;
-    --border-color: #565040;
+    --border-color: #545148;
     
     --sn-stylekit-info-color: #5993c7;
     --sn-stylekit-info-contrast-color: white;
@@ -46,7 +47,7 @@
     --sn-stylekit-secondary-contrast-foreground-color: var(--foreground-1);
     --sn-stylekit-secondary-contrast-border-color: var(--border-color);
     
-	--sn-stylekit-editor-background-color: var(--background-1);
+	--sn-stylekit-editor-background-color: var(--background-2);
     --sn-stylekit-editor-foreground-color: var(--foreground-1);
     
 	--sn-stylekit-input-placeholder-color: var(--foreground-2);
@@ -66,3 +67,73 @@
 }
 
 
+:root .sk-app-bar {
+  color: var(--foreground-2) !important;
+}
+:root .title {
+  color: var(--foreground-3) !important;
+}
+:root .sk-menu-panel {
+  color: var(--foreground-1) !important;
+}
+:root #notes-scrollable {
+  background-color: var(--background-2) !important;
+}
+
+:root .cm-s-default .cm-variable-3,
+:root .cm-s-default .cm-type {
+  color: var(--success-color) !important;
+}
+
+:root ::selection {
+  background: var(--success-color) !important;
+  color: var(--foreground-1) !important;
+}
+:root .cm-s-default .cm-variable-3 {
+  color: #5acf83;
+}
+:root #editor-menu-bar > div > div.sk-app-bar-item.selected > div.sk-menu-panel.dropdown-menu.ng-scope > div:nth-child(1) > menu-row:nth-child(7) > div > div > div > div > div {
+  color: var(--danger-color);
+}
+:root .tags .tag > .tag-info > .tag-icon {
+	opacity: 0.4;
+}
+:root #tags-content > div.scrollable > div > div.tag.ng-scope.selected > div.tag-info > div.tag-icon {
+	opacity: 0.5;
+}
+:root div.tag-info.level-1 > div.sk-circle.small.info {
+	opacity: 0.6;
+}
+:root div.tag-info.level-1 > div.sk-circle.small.success {
+	opacity: 0.6;
+}
+:root div.tag-info.level-2 > div.sk-circle.small.success {
+	opacity: 0.6;
+}
+:root div.tag-info.level-3 > div.sk-circle.small.danger {
+	opacity: 0.6;
+}
+:root div.tag-info.level-4 > div.sk-circle.small.warning {
+	opacity: 0.6;
+}
+:root div.tag-info.level-5 > div.sk-circle.small.neutral {
+	opacity: 0.6;
+}
+:root .sn-component .sk-circle {
+	border: none;
+}
+:root .tag-tree .self.selected:before {
+	background: none;
+	background-color: var(--sn-stylekit-secondary-contrast-background-color);
+	opacity: 1;
+}
+:root #tags-column .tag.selected {
+	background-color: #124420;
+}
+:root .tag-tree .self .tag-info .action-menu {
+	margin-left: auto;
+	margin-right: 0;
+}
+:root .tags .tag > .menu:hover {
+	opacity: 0.5;
+}
