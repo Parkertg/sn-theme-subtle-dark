@@ -47,7 +47,7 @@
     --sn-stylekit-secondary-contrast-foreground-color: var(--foreground-1);
     --sn-stylekit-secondary-contrast-border-color: var(--border-color);
     
-	--sn-stylekit-editor-background-color: var(--background-2);
+	--sn-stylekit-editor-background-color: var(--background-1);
     --sn-stylekit-editor-foreground-color: var(--foreground-1);
     
 	--sn-stylekit-input-placeholder-color: var(--foreground-2);
