@@ -77,10 +77,6 @@
   color: var(--success-color) !important;
 }
 
-:root ::selection {
-  background: var(--success-color) !important;
-  color: var(--foreground-1) !important;
-}
 :root .cm-s-default .cm-variable-3 {
   color: #5acf83;
 }
